@@ -8,18 +8,10 @@ namespace BlazorVirtualGridComponent.businessLayer
     {
         public List<BCssItem> Children = new List<BCssItem>();
 
-        public string ToBase64String()
-        {
-            return Convert.ToBase64String(Encoding.UTF8.GetBytes(ToString()));
-        }
-            
-
         public override string ToString()
         {
 
-
             StringBuilder sb1 = new StringBuilder();
-
 
             foreach (var item in Children)
             {
@@ -39,22 +31,23 @@ namespace BlazorVirtualGridComponent.businessLayer
 
             return sb1.ToString().Replace(";}", "}");
         }
+        
+        public string ToBase64String()
+        {
+            return Convert.ToBase64String(Encoding.UTF8.GetBytes(ToString()));
+        }
+            
     }
 
     public class BCssItem
     {
-
-
         public string Selector { get; private set; }
 
-
         public Dictionary<string, string> Values { get; set; } = new Dictionary<string, string>();
-
 
         public BCssItem(string s)
         {
             Selector = s;
         }
-
     }
 }
