@@ -6,7 +6,7 @@ It happens once as settings are received as parameters, styles are generated and
 
 You need to put `<CompCss settings="yourSettings"></CompCss>` anywhere.
 
-It can be injected in thml as <style> element or as <link> element with base64 data uri.
+It can be injected in html as <style> element or as <link> element with base64 data uri.
 
 example: `<link rel="stylesheet" href="data:text/css;base64,dGR3...I6cn0=" type="text/css">`
 
