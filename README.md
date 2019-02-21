@@ -1,4 +1,4 @@
-# BlazorCssHelper
+# Blazor Css Helper
 
 This css helper is used to generate css classes for component based on provided settings.
 
