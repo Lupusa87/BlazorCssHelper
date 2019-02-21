@@ -26,9 +26,10 @@ Example:
 
 ```
 
-Motivation behind this helper.
+**Motivation behind this helper**
 
 Instead of giving each element large style attributes we can generate dynamic styles and html elements will have only class attribute (class name).
+
 In case when we can't do static/predefined styles because it's content is depending on provided settings it solves this problem.
 
 **In result we get dynamic css**
