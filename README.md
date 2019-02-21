@@ -34,4 +34,6 @@ In case when we can't do static/predefined styles because it's content is depend
 
 **In result we get dynamic css**
 
+You can check how it works in only 2 small files [BCss](https://github.com/Lupusa87/BlazorCssHelper/blob/master/BCss)  and [compCss](https://github.com/Lupusa87/BlazorCssHelper/blob/master/CompCSS)
+
 Hope you will find it helpful.
