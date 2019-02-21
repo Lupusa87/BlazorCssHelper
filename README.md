@@ -10,7 +10,7 @@ It can be injected in html as <style> element or as <link> element with base64 d
 
 example: `<link rel="stylesheet" href="data:text/css;base64,dGR3...I6cn0=" type="text/css">`
 
-This helper class provides fast and easy way to handle conditional styles, you can realize any logic to get resired styles.
+This helper class provides fast and easy way to handle conditional styles, you can realize any logic to get desired styles.
 
 Example:
 ```
