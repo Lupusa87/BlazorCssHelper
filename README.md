@@ -4,7 +4,7 @@ This css helper is used to generate css classes for component based on provided 
 
 It happens once as settings are received as parameters, styles are generated and can be injected any place in application.
 
-You need to put <CompCss settings="yourSettings"></CompCss> anywhere.
+You need to put `<CompCss settings="yourSettings"></CompCss>` anywhere.
 
 It can be injected in thml as <style> element or as link element with base64 data uri.
 
