@@ -1,16 +1,16 @@
 # Blazor Css Helper
 
-This css helper is used to generate css classes for component based on provided settings.
+This css helper is used to generate css classes for components, based on provided settings.
 
 It happens once as settings are received as parameters, styles are generated and can be injected any place in application.
 
 You need to put `<CompCss settings="yourSettings"></CompCss>` anywhere.
 
-It can be injected in thml as <style> element or as link element with base64 data uri.
+It can be injected in thml as <style> element or as <link> element with base64 data uri.
 
-`<link rel="stylesheet" href="data:text/css;base64,dGR3...I6cn0=" type="text/css">`
+example: `<link rel="stylesheet" href="data:text/css;base64,dGR3...I6cn0=" type="text/css">`
 
-This helper class provides fast and easy way to handle conditional styles.
+This helper class provides fast and easy way to handle conditional styles, you can realize any logic to get resired styles.
 
 Example:
 ```
