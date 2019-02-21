@@ -23,3 +23,8 @@ Example:
   blazorCSS.Children.Add(_CellRegular);
 
 ```
+
+
+**In result we get dynamic css**
+
+Hope you will find it helpful.
